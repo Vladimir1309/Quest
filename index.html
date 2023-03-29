@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="area">
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div>
+
+    <div class = "context">
+        
+        <div>
+            <h1 id = "startSpan">Поехали!</h1>
+            <button id = "startButton" class = "startButton">Нажми на меня</button>
+        </div>
+
+        <div id = "getData">
+            <span class = "containerWhite">Введите никнейм</span>
+            <input class = "containerDark" id = "inputNickName"></input>
+            <button class = "containerDark" id = "contButton">Продолжить</button>
+        </div>
+    
+        <div id = "clickTo">
+            <h2 class = "containerWhite" id="span2"></h2>
+            <button class="buttonTo" id="buttonTo"></button>
+        </div>
+
+        <div>
+            <h1 id = "h1ClickTo" style="color: white; position: relative; text-align: center;"></h1>
+        </div>
+
+        <div id="sneakySpans" class="sneakySpans">
+            <h1>И что это за девятки?</h1> <br> <br> <br> <br>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3> 
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3>9</h3>
+            <h3 id="sneakyNine">9</h3>
+        </div>
+
+        <div>
+            <h1 id = "h1SneakySpans"></h1>
+        </div>
+
+        <div id ="guessButton" class="guessButton">
+            <h2 id="h2Buttonh2" style="color: white;">Угадай число (1 или 2)</h2>
+            <input id="inputChange" class="inputChange">
+            <button id="guessButtonChange" style="padding: 5px">Испытать удачу</button>
+        </div>
+
+        <div>
+            <h1 id = "h1ButtonEnd" style="color: white; position: relative; text-align: center;"></h1>
+        </div>
+
+        <div>
+            <h1 id="h1Loose"></h1>
+        </div>
+
+        <div id="guessMassiveText">
+            <h1>Угадай кнопку</h1> <br> <br> <br> <br>
+            <center><h2 id = "h2GuessMassiveAttemptsCounter"></h2></center>
+        </div>
+
+        <div class="guessMassive" id="guessMassive">
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;" id="trueMassive"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button>
+            <button style="height: 50px;width: 50px;"></button> <br> <br>
+        </div>
+
+        <div>
+            <h1 id = "h2GuessMassiveTrue"></h1>
+        </div>
+
+        <div>
+            <h1 id = "h2GuessMassiveFalse"></h1>
+        </div>
+
+        <div id = "car1">
+        </div>
+        
+        <div id = "car2">
+            <h2 style = "color: white; margin: auto; position: relative; text-align: center;">Проедь как можно больше! (Жмякай на клаву)</h2> <br> <br> <br>
+            <div class="line1"></div>
+        </div>
+        
+        <div id="divTimerCar">
+            <h2 id = "h2TimerCar"></h2>
+        </div>
+
+        <div id="carEnd">
+            <h1 style = "color: white; margin-top: -80px">Гвейт жаб! <br> Возьми пирожок с полочки :)</h1><br>
+            <center><a style = "color: rgb(157, 157, 224); font-size: 50px" href="https://vk.com/vova882015">VK</a></center>
+            <center><a style = "color: rgb(157, 157, 224); font-size: 50px" href="https://github.com/Vladimir1309">GitHub</a></center>
+        </div>
+
+        <div>
+            <center><button id = "buttonEnd" class="buttonEnd">Пройти квест заново</button></center>
+        </div>
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
